@@ -1,0 +1,260 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:500;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+  .clearfix{
+    clear: both;
+    float: none;
+  }
+  
+  
+  #navbar {
+    background: #00838f;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.8s;
+  }
+  
+  #navbar a {
+    float: right;
+    display: block;
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin: 2em 3em;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+  }
+  
+  #navbar a:hover {
+    background-color: rgb(148, 193, 219);
+    border-radius: 100px;
+    
+  }
+  
+  
+  /*
+  nav.black {
+    background: rgba(0, 0, 0, 8);
+    height: 100px;
+    padding: 10px 100px;
+  
+  }
+  
+  nav .logo{
+    padding:22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    transition: .3s; 
+  }
+  
+  
+  nav.black .logo{
+    color: #fff;
+  }
+  
+  nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgb(148, 193, 219);
+    border-radius: 20px;
+  }
+  nav ul li a{
+    
+    line-height: 80px;
+    color: #151515;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s; 
+  }
+  
+  nav.black ul li a{
+    color: #fff;
+  }
+  
+  nav ul li a:focus{
+    outline: none;
+  
+  }
+  
+  nav ul li a.active{
+    background:  #e2472e;
+    color: #fff;
+    border-radius:  6px;
+  }
+  */
+  
+  
+  
+  .pimg1, .pimg2, .pimg3, .PIMG4{
+    position:relative;
+    
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    background-attachment:fixed;
+  }
+  
+  .pimg1{
+    background-image:url('../img/LETRERO.jpg');
+    min-height:100%;
+  }
+  
+  .pimg2{
+    background-image:url('../img/plaza.jpg');
+    min-height:700px;
+  }
+  
+  .pimg3{
+    background-image:url('../img/LA.jpg');
+    min-height:700px;
+  }
+  
+  .PIMG4{
+    background-image:url('../img/presa.jpg');
+    min-height:100%;
+    
+  }
+  
+  
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  
+  .section-dark{
+    background-color:#282e34;
+    color:#ddd;
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:30px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    
+    color:#fff;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+  
+  
+  
+  
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3, .PIMG4{
+      background-attachment:scroll;
+    }
+  }
+  
+  img {
+    width: 25px;
+  }
+  
+  
+  #slider{
+    margin-top: 10px;
+    width: 1900px;
+    overflow: hidden;
+    
+  }
+  
+  #slider ul {
+    
+    list-style: none;
+    width: 2800px;  
+    display: flex;
+    animation: slider 45s infinite;
+    animation-timing-function: ease-in;
+  }
+  
+  @keyframes slider {
+    0%{margin-left: 0;}
+    
+    60%{margin-left: -100%;}
+    100%{margin-left: -100;}
+  
+  }
+  
+  .subheader{
+    font-size: 34px;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(251, 49, 78, 0.3);
+  }
+  
+  .container{
+    width: 75%;
+    margin: 0px auto;
+  }
+  
+  #footer{
+    background:#282e34;
+    padding-top: 1px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+  }
+  
+  #footer .subheader{
+    color: white;
+  }
+  
+  #redes{
+    margin: 0px auto;
+    width: 216px;
+    display: block;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  #redes li{
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+    transition: all 300ms;
+  }
+  #redes li:hover{
+    opacity: 0.7;
+    transform: scale(1.2, 1.2);
+  }
+  
+  
