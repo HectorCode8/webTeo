@@ -8,6 +8,15 @@ body, html{
   color:#666;
 }
 
+h2{
+  border-bottom: 1px solid #00e676;
+  padding-bottom: 15px;
+  font-size: 34px;
+  text-align: center;
+  color: white;
+  
+}
+
 .clearfix{
   clear: both;
   float: none;
@@ -15,30 +24,30 @@ body, html{
 
 
 #navbar {
-  background: #00838f;
-  opacity: 0.5;
+  background: #546e7a;
+  opacity: 0.6;
   position: fixed;
   top: 0;
   width: 100%;
-  display: block;
+  
   transition: top 0.8s;
 }
 
 #navbar a {
   float: right;
   display: block;
-  color: #fff;
+  color: white;
   font-weight: 300;
   text-decoration: none;
   margin: 2em 3em;
-  font-size: 16px;
+  font-size: 18px;
   text-transform: uppercase;
   
 }
 
 #navbar a:hover {
-  background-color: rgb(148, 193, 219);
-  border-radius: 100px;
+  background-color: #00e676;
+  border-radius: 10px;
   
 }
 
@@ -116,22 +125,22 @@ nav ul li a.active{
 
 .pimg1{
   background-image:url('../img/LETRERO.jpg');
-  min-height:100%;
+  min-height:110%;
 }
 
 .pimg2{
-  background-image:url('../img/plaza.jpg');
-  min-height:700px;
+  background-image:url('../img/nueva11.jpg');
+  min-height:900px;
 }
 
 .pimg3{
-  background-image:url('../img/LA.jpg');
-  min-height:700px;
+  background-image:url('../img/nueva22.jpg');
+  min-height:1000px;
 }
 
 .PIMG4{
   background-image:url('../img/presa.jpg');
-  min-height:100%;
+  min-height:110%;
   
 }
 
@@ -164,8 +173,8 @@ nav ul li a.active{
 
 .ptext .border{
   
-  color:#fff;
-  padding:20px;
+  color:white;
+  padding:25px;
 }
 
 .ptext .border.trans{
@@ -217,7 +226,7 @@ img {
   margin-top: 50px;
   margin-bottom: 30px;
   padding-bottom: 15px;
-  border-bottom: 1px solid rgba(251, 49, 78, 0.3);
+  border-bottom: 1px solid #00e676;
 }
 
 .container{
