@@ -1,7 +1,6 @@
 //Scroll suavizado  
 $(document).ready(function(){
-    $("#menu a ").click(function(e){
-        e.preventDefault();
+    $("#navbar a ").click(function(){
         $("html, body").animate({
             scrollTop: $($(this).attr('href')).offset().top
         });

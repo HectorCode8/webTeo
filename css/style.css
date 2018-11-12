@@ -34,7 +34,7 @@ h2{
 
 #navbar a {
   float: right;
-  
+  display: block;
   color: white;
   font-weight: 300;
   text-decoration: none;
@@ -45,7 +45,7 @@ h2{
 }
 
 #navbar a:hover {
-  background-color: #00e676;
+  background-color: #78909c;
   border-radius: 10px;
   
 }
